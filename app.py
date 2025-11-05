@@ -4,9 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "API IA Rutas Industriales funcionando correctamente 
-    
-            por ROQUE GARCIA ESPINOZA 🚀"}
+    return {"message": "API IA Rutas Industriales funcionando correctamente por ROQUE GARCIA ESPINOZA 🚀"}
 
 from typing import List, Literal, Tuple, Dict
 from fastapi import FastAPI
@@ -134,4 +132,5 @@ def planificar(req: PlanRequest):
 @app.get("/")
 def health():
     return {"message": "API IA Rutas Industriales funcionando correctamente 🚀"}
+
 
